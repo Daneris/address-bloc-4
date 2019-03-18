@@ -69,5 +69,8 @@ module.exports = class MenuController {
     return this.contacts.length;
   }
 
+  remindMe(){
+    return "learning is a life-long pursuit"
+  }
 
 }
