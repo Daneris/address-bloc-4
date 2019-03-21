@@ -93,7 +93,7 @@ module.exports = class ContactController{
     let mid;
 
     while(min <= max){
-      mid = Math.floord((min + max) /2)
+      mid = Math.floor((min + max) /2)
       let currentContact = contacts[mid]
 
       if(currentContact.name > target){

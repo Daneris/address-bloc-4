@@ -312,8 +312,9 @@ describe("search methods", () =>{
 
      it("should add a single contact into the book", (done) => {
        this.book.addContact("Alice", "484-869-4499","alice123@gmail.com")
-       console.log(addContact, "logging add contact")
+       
         .then((contact) =>{
+
           expect(contact.name).toBe("Alice");
           expect(contact.phone).toBe("484-869-4499");
           expect(contact.email).toBe("alice123@gmail.com");
